@@ -44,6 +44,7 @@ Now when we go to the static website link of our bucket we can see the static we
 
 ### Using presigned URL to securely share an object
 When we want to share an object to others temporarily and securely we can create a presigned URL to do this. We can set the time interval until it expires.
+
 ![S3-15](./screenshots/s3-15.png)
 ![S3-16](./screenshots/s3-16.png)
 Now we can share the presign url with others and they can access the object through the url until it expires.
