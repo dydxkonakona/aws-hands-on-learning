@@ -98,7 +98,28 @@ user-3 is assigned to EC2-Admin user group.
 
 All of them inherited their respective user group's policies.
 
+### Testing permissions of IAM users
+Let's try stopping an instance using user-2 and see what happens.
+
+![IAM-9](./screenshots/iam/iam-9.png)
+
+As we can see it didn't allow user-2 to stop the ec2 instance because it is not authorized, it can only read ec2 instances not stop it. Now let's try stopping the instance using user-3 and see what happens.
+
+![IAM-10](./screenshots/iam/iam-10.png)
+
+It successfully performed the operation because it is permitted to do so. Now let's try accessing an S3 bucket using user-3.
+
+![IAM-11](./screenshots/iam/iam-11.png)
+
+The user-3 cannot view Amazon S3 buckets because it doesn't have permissions to view S3 buckets.
+
 ### Modifying permissions to allow user-3 to have a read only access to AmazonS3
 I added user-3 to the S3-Support user group and now it inherits the group's permission to AmazonS3ReadOnlyAccess
 
 ![IAM-8](./screenshots/iam/iam-8.png)
+
+Now let's see if user-3 will be able to see Amazon S3 buckets now that it is on S3-Support user group.
+
+![IAM-12](./screenshots/iam/iam-12.png)
+
+And it did! Amazon S3 buckets are now visible to user-3.
