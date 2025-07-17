@@ -67,25 +67,38 @@ It allows to perform those actions on all EC2 instances that are nano or micro f
 }
 ```
 I named the policy EC2-Admin-Policy
+
 ![IAM-1](./screenshots/iam/iam-1.png)
 
 ### Creating S3-Support, EC2-Support, and EC2-Admin user groups with policies.
 S3-Support has AmazonS3ReadOnlyAccess.
+
 ![IAM-2](./screenshots/iam/iam-2.png)
+
 EC2-Support has AmazonEC2ReadOnlyAccess.
+
 ![IAM-3](./screenshots/iam/iam-3.png)
+
 EC2-Admin has my custom managed policy EC2-Admin-Policy
+
 ![IAM-4](./screenshots/iam/iam-4.png)
 
 ### Creating IAM users
 user-1 is assigned to S3-Support user group.
+
 ![IAM-5](./screenshots/iam/iam-5.png)
+
 user-2 is assigned to EC2-Support user group.
+
 ![IAM-6](./screenshots/iam/iam-6.png)
+
 user-3 is assigned to EC2-Admin user group.
+
 ![IAM-7](./screenshots/iam/iam-7.png)
+
 All of them inherited their respective user group's policies.
 
 ### Modifying permissions to allow user-3 to have a read only access to AmazonS3
 I added user-3 to the S3-Support user group and now it inherits the group's permission to AmazonS3ReadOnlyAccess
+
 ![IAM-8](./screenshots/iam/iam-8.png)
