@@ -83,9 +83,9 @@ user-1 is assigned to S3-Support user group.
 user-2 is assigned to EC2-Support user group.
 ![IAM-6](./screenshots/iam/iam-6.png)
 user-3 is assigned to EC2-Admin user group.
-![IAM-7](./screenshots/iam/iam-7png)
+![IAM-7](./screenshots/iam/iam-7.png)
 All of them inherited their respective user group's policies.
 
 ### Modifying permissions to allow user-3 to have a read only access to AmazonS3
 I added user-3 to the S3-Support user group and now it inherits the group's permission to AmazonS3ReadOnlyAccess
-![IAM-8](./screenshots/iam/iam-8png)
+![IAM-8](./screenshots/iam/iam-8.png)
