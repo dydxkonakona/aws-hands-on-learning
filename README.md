@@ -1,6 +1,8 @@
 # AWS Hands-on Learning
 
-This repository documents my hands-on learning on AWS Cloud. 
+Welcome! 👋
+
+This repository documents my hands-on learning and exploration of Amazon Web Services (AWS) Cloud. It serves as a personal knowledge base, practice ground, and a way to track my progress as I dive deeper into AWS services, architecture, best practices, and real-world use cases.
 
 ## Table of Contents
 
