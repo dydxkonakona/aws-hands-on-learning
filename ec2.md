@@ -124,4 +124,6 @@ It didn't work because termination protection is turned on, this is good because
 
 ![ec2-terminate3](./screenshots/ec2/ec2-terminate3.png)
 
+![ec2-terminate4](./screenshots/ec2/ec2-terminate4.png)
+
 With termination protection turned off the EC2 instance is now terminated.
