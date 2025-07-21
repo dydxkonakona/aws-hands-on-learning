@@ -3,8 +3,8 @@
 ## What I Did
 
 - Explore the basic components of a VPC.
-<!-- - Deploy a basic VPC with public subnets. -->
 - Deploy an Amazon Elastic Compute Cloud (Amazon EC2) instance into a VPC.
+<!-- - Deploy a basic VPC with public subnets. -->
 
 ### Explore the default VPC
 
@@ -47,3 +47,7 @@ Let's confirm whether the instance is in the subnet.
 As we can see the subnet where we deployed are instance has it's available ip addresses from 4091 gone to 4090 which means the EC2 instance occupied that one ip address. We can also verify it on the instance itself by checking its vpc id and subnet id.
 
 ![vpc-ec2-3](./screenshots/vpc/vpc-ec2-3.png)
+
+This is the final look of our architecture.
+
+![vpc-intro](./screenshots/vpc/vpc-intro.png)
