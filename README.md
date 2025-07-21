@@ -9,4 +9,5 @@ This repository documents my hands-on learning and exploration of Amazon Web Ser
 - [Amazon S3 – Static Website Hosting](./amazon-s3.md)
 - [IAM - Setting up permissions](./iam.md)
 - [EC2 – Launching a Web Server](./ec2.md)
-- [VPC - Creating a Virtual Private Cloud](./vpc.md)
+- [VPC - Exploring a Virtual Private Cloud](./vpc.md)
+- [RDS - Creating an Amazon RDS Database](./rds.md)
