@@ -11,3 +11,4 @@ This repository documents my hands-on learning and exploration of Amazon Web Ser
 - [EC2 – Launching a Web Server](./ec2.md)
 - [VPC - Exploring a Virtual Private Cloud](./vpc.md)
 - [RDS - Creating an Amazon RDS Database](./rds.md)
+- [AWS Lambda - Getting Started with AWS Lambda](./lambda.md)
