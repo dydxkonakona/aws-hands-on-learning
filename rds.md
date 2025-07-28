@@ -47,7 +47,6 @@ By the end of this lab, I was able to:
 10. Choose **Create Database**  
     > Wait until the status becomes **Available**
 
-📸
 ![rds-task1.1](./screenshots/rds/rds-task1.1.png)
 
 ![rds-task1.2](./screenshots/rds/rds-task1.2.png)
@@ -70,7 +69,7 @@ By the end of this lab, I was able to:
    - **Password:** `sim-password!`
 6. Click **Save**
 
-💡 Connection info is saved to **AWS Secrets Manager**
+Connection info is saved to **AWS Secrets Manager**
 
 ---
 
@@ -83,7 +82,6 @@ By the end of this lab, I was able to:
 - Edit entry:
   - Change quantity of `Puerto Rico` from `12` → `5`
 
-📸
 ![rds-task2.1](./screenshots/rds/rds-task2.1.png)
 
 ![rds-task2.2](./screenshots/rds/rds-task2.2.png)
@@ -99,7 +97,6 @@ By the end of this lab, I was able to:
    - Read/Write Latency
    - Storage metrics
 
-📸 
 ![rds-task3.1](./screenshots/rds/rds-task3.1.png)
 
 ![rds-task3.2](./screenshots/rds/rds-task3.2.png)
@@ -118,7 +115,6 @@ Notes:
 - RDS auto-restarts after 7 days
 - Billing stops for compute, **but storage charges remain**
 
-📸
 ![rds-task4.1](./screenshots/rds/rds-task4.1.png)
 
 ![rds-task4.2](./screenshots/rds/rds-task4.2.png)
@@ -135,7 +131,6 @@ In this hands-on exercise, I:
 - Observed monitoring metrics via CloudWatch
 - Performed administrative actions such as stopping the DB
 
-📸
 ![final-architecture](./screenshots/rds/final-architecture.png)
 
 ---
