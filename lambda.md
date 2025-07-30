@@ -109,27 +109,20 @@ By the end of this lab, I was able to:
 - Set memory to `1024 MB`, re-upload image
 
 ![lambda-task5.1](./screenshots/lambda/lambda-task5.1.png)
-![lambda-task5.2](./screenshots/lambda/lambda-task5.2.png)
 
 ### Round 2: 2048 MB
 
 - Set memory to `2048 MB`, re-upload image
 
-![lambda-task5.3](./screenshots/lambda/lambda-task5.3.png)
-![lambda-task5.4](./screenshots/lambda/lambda-task5.4.png)
+![lambda-task5.2](./screenshots/lambda/lambda-task5.2.png)
 
 ### Round 3: 3008 MB
 
 - Set memory to `3008 MB`, re-upload image
 
-![lambda-task5.5](./screenshots/lambda/lambda-task5.5.png)
-![lambda-task5.6](./screenshots/lambda/lambda-task5.6.png)
+![lambda-task5.3](./screenshots/lambda/lambda-task5.3.png)
 
 ---
-
-> Final result: Notice how long it took the function to run. The function now runs in approximately 500 milliseconds with 3008 MB of memory and an image that is 5 MB.
-
-![lambda-final](./screenshots/lambda/lambda-final.png)
 
 ## Simulation Complete
 
@@ -141,3 +134,6 @@ In this hands-on simulation, I:
 - Optimized function performance by tuning memory
 - Monitored logs and metrics using CloudWatch
 
+> Final result: Image resizing triggered automatically via S3 event and completed under 1 second at 3008 MB.
+
+![lambda-final](./screenshots/lambda/lambda-final.png)
