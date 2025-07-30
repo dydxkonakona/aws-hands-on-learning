@@ -12,3 +12,4 @@ This repository documents my hands-on learning and exploration of Amazon Web Ser
 - [VPC - Exploring a Virtual Private Cloud](./vpc.md)
 - [RDS - Creating an Amazon RDS Database](./rds.md)
 - [AWS Lambda - Getting Started with AWS Lambda](./lambda.md)
+- [AWS Pricing Caluclator - Cost Estimation in AWS](./cost-estimation.md)
